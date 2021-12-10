@@ -6,7 +6,7 @@ const User = require("../models/user");
 
 let opts = {
   jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
-  secretOrKey: `${process.env.jwt_secret}`,
+  secretOrKey: `${process.env.codeialJwtSecret}`,
   // "codeial",
 };
 
