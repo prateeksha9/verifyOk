@@ -15,7 +15,7 @@ passport.use(
       // clientSecret: `${env.google_client_Secret}`,
       // "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",
       callbackURL: `${process.env.google_callback_URL}`,
-      callbackURL: `${env.google_callback_URL}`,
+      callbackURL: `${process.env.google_callback_URL}`,
       // "http://localhost:8000/users/auth/google/callback",
     },
 
