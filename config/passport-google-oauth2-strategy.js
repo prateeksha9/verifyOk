@@ -8,8 +8,8 @@ const User = require("../models/user");
 passport.use(
   new googleStrategy(
     {
-      // clientID: `${env.googleClientID}`,
-      clientID: `${process.env.google_client_ID}`,
+      clientID: `${env.googleClientID}`,
+//       clientID: `${process.env.google_client_ID}`,
       // "606863490315-8aflrermm45btcfgmv6in1inlpqrgkf8.apps.googleusercontent.com",
       clientSecret: `${process.env.googleClientSecret}`,
       // clientSecret: `${env.google_client_secret}`,
