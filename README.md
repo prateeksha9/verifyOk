@@ -1,7 +1,7 @@
 # verifyOk
 
--A simple Authentication App where you can sign in, sign out and reset password. 
-- Here you can sihn up and sign in through your own gmail id. 
+- A simple Authentication App where you can sign in, sign out and reset password. 
+- Here you can sign up and sign in through your own gmail id. 
 - Or you can click on sign up/ sign in with Google to use google authentication.
 
 # Tech Stack
