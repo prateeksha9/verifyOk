@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 // const env = require("./enviorment");
-mongoose.connect(`mongodb://localhost/${env.db}`);
+mongoose.connect(`mongodb://localhost/${process.env.db}`);
 const db = mongoose.connection;
 
 db.on("error", console.error.bind(console, "Error Connecting to MongoDB"));
