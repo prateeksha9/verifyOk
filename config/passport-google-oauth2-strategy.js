@@ -8,14 +8,14 @@ const User = require("../models/user");
 passport.use(
   new googleStrategy(
     {
-      // clientID: `${env.google_client_ID}`,
+      // clientID: `${env.googleClientID}`,
       clientID: `${process.env.google_client_ID}`,
       // "606863490315-8aflrermm45btcfgmv6in1inlpqrgkf8.apps.googleusercontent.com",
-      clientSecret: `${process.env.google_client_Secret}`,
-      // clientSecret: `${env.google_client_Secret}`,
+      clientSecret: `${process.env.googleClientSecret}`,
+      // clientSecret: `${env.google_client_secret}`,
       // "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",
-      callbackURL: `${process.env.google_callback_URL}`,
-      callbackURL: `${process.env.google_callback_URL}`,
+      callbackURL: `${process.env.googleCallbackURL}`,
+//       callbackURL: `${process.env.google_callback_URL}`,
       // "http://localhost:8000/users/auth/google/callback",
     },
 
