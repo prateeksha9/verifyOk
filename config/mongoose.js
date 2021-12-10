@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 // const env = require("./enviorment");
 
-mongoose.connect(mongodb+srv://Prateeksha:prateeksha@0209@cluster0.i1mu1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority)
+mongoose.connect("mongodb+srv://Prateeksha:prateeksha0209@cluster0.yl8yu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 //   `mongodb://localhost/${process.env.db}`);
 const db = mongoose.connection;
 
