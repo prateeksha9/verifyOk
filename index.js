@@ -27,7 +27,7 @@ app.use(
     name: "authentication",
     // TODO change the secret before deployment in production mode
     // secret: env.session_cookies_key,
-    secret: process.env.session_cookies_key,
+    secret: process.env.sessionCookiesKey,
     saveUninitialized: false,
     resave: false,
     cookie: {
